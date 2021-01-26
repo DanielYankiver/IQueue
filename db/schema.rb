@@ -10,23 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_25_183504) do
+ActiveRecord::Schema.define(version: 2021_01_26_154914) do
 
   create_table "contents", force: :cascade do |t|
     t.string "title"
     t.text "description"
-    t.string "type"
+    t.string "category"
     t.integer "year"
     t.string "image"
-    t.string "review"
-    t.integer "rating"
     t.string "platform"
-    t.integer "user_id", null: false
     t.integer "queue_list_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["queue_list_id"], name: "index_contents_on_queue_list_id"
-    t.index ["user_id"], name: "index_contents_on_user_id"
+  end
+
+  create_table "ownerships", force: :cascade do |t|
+    t.text "review"
+    t.integer "rating"
+    t.integer "user_id", null: false
+    t.integer "content_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["content_id"], name: "index_ownerships_on_content_id"
+    t.index ["user_id"], name: "index_ownerships_on_user_id"
   end
 
   create_table "queue_lists", force: :cascade do |t|
@@ -42,5 +49,6 @@ ActiveRecord::Schema.define(version: 2021_01_25_183504) do
   end
 
   add_foreign_key "contents", "queue_lists"
-  add_foreign_key "contents", "users"
+  add_foreign_key "ownerships", "contents"
+  add_foreign_key "ownerships", "users"
 end

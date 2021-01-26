@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :ownerships
   resources :contents
   resources :queue_lists
   resources :users 
