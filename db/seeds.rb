@@ -8,6 +8,7 @@
 
 # USERS: 
 
+
 User.create(username: 'erwin')
 User.create(username: 'daniel')
 
@@ -387,3 +388,4 @@ Content.create(title: 'Westworld',
                user_id: 2, 
                queue_list_id: 1)
 
+puts "Seed! Seed! Seed!"
