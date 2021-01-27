@@ -7,9 +7,8 @@ class CreateContents < ActiveRecord::Migration[6.0]
       t.integer :year
       t.string :image
       t.string :platform
+      t.integer :rating
       t.belongs_to :queue_list, null: false, foreign_key: true
-
-      t.timestamps
     end
   end
 end

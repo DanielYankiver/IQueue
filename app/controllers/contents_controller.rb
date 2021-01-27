@@ -30,6 +30,6 @@ class ContentsController < ApplicationController
     private 
 
     def content_params 
-        params.permit(:queue_list_id, :title, :description, :category, :year, :image, :platform)
+        params.permit(:queue_list_id, :title, :description, :category, :year, :image, :platform, :rating)
     end 
 end

@@ -30,6 +30,6 @@ class OwnershipsController < ApplicationController
     private 
 
     def ownership_params 
-        params.permit(:user_id, :content_id, :rating, :review)
+        params.permit(:user_id, :content_id, :review)
     end 
 end

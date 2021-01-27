@@ -19,33 +19,25 @@ ActiveRecord::Schema.define(version: 2021_01_26_154914) do
     t.integer "year"
     t.string "image"
     t.string "platform"
+    t.integer "rating"
     t.integer "queue_list_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
     t.index ["queue_list_id"], name: "index_contents_on_queue_list_id"
   end
 
   create_table "ownerships", force: :cascade do |t|
     t.text "review"
-    t.integer "rating"
     t.integer "user_id", null: false
     t.integer "content_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
     t.index ["content_id"], name: "index_ownerships_on_content_id"
     t.index ["user_id"], name: "index_ownerships_on_user_id"
   end
 
   create_table "queue_lists", force: :cascade do |t|
     t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.string "username"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   add_foreign_key "contents", "queue_lists"

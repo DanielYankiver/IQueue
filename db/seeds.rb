@@ -18,6 +18,8 @@ QueueList.create(name: 'watch with kids') #3
 QueueList.create(name: 'date night') #4 
 QueueList.create(name: 'need a laugh') #5
 
+#UserQueue.create(user_id: , queue_list_id: )
+
 # CONTENT ---------------------------------------------------------------------------------------
 
 
@@ -27,6 +29,7 @@ Content.create(title: 'Your Name',
                 year: 2017 , 
                 image: 'https://img.moviepostershop.com/your-name-movie-poster-2016-1020777403.jpg', 
                 platform:'Crunchyroll', 
+                rating: 98,
                 queue_list_id: 2)
                 
 Content.create(title: 'Durarara!!', 
@@ -35,6 +38,7 @@ Content.create(title: 'Durarara!!',
                year: 2010, 
                image: 'https://m.media-amazon.com/images/M/MV5BNjZjMjcyYjAtOTE5Yi00YmUwLWIzZDctZTg2YjQ3NGM4ZmFlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR73,0,630,1200_AL_.jpg',  
                platform:'Hulu', 
+               rating: 79,
                queue_list_id: 2)
 
 Content.create(title: 'The Mandalorian', 
@@ -43,6 +47,7 @@ Content.create(title: 'The Mandalorian',
                 year: 2019, 
                 image: 'https://static.wikia.nocookie.net/starwars/images/3/30/TheArtofTheMandalorian%28Season_One%29.jpg/revision/latest?cb=20200701015350',  
                 platform:'Disney+', 
+                rating: 93,
                 queue_list_id: 3)
                 
 Content.create(title: 'The Sopranos', 
@@ -51,6 +56,7 @@ Content.create(title: 'The Sopranos',
                 year: 1999, 
                 image: 'https://ih1.redbubble.net/image.402964186.1875/flat,750x,075,f-pad,750x1000,f8f8f8.jpg', 
                 platform:'HBO Max', 
+                rating: 92,
                 queue_list_id: 1)
                 
 Content.create(title: 'The Boys', 
@@ -59,6 +65,7 @@ Content.create(title: 'The Boys',
                 year: 2019, 
                 image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQLu7zv8jPbv0SxipKFmCy9d-wkxtXX1XX5WrDhlc-qYRTjgDtK',  
                 platform:'Prime Video', 
+                rating: 90,
                 queue_list_id: 1)
                 
 Content.create(title: 'The Expanse', 
@@ -67,6 +74,7 @@ Content.create(title: 'The Expanse',
                 year: 2015, 
                 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ8JDrnTuZ3wMEKx12-_HYkyYPG17vIWfTPa-Dv5sGOVZoBpvw', 
                 platform:'Prime Video', 
+                rating: 89,
                 queue_list_id: 1)
                 
 Content.create(title: 'Spider-Man: Into the Spider-Verse', 
@@ -75,6 +83,7 @@ Content.create(title: 'Spider-Man: Into the Spider-Verse',
                 year: 2018, 
                 image: 'https://images-na.ssl-images-amazon.com/images/I/91F2HZa97jL._SL1500_.jpg', 
                 platform:'Prime Video', 
+                rating: 97,
                 queue_list_id: 2)
 
 Content.create(title: 'Parasite', 
@@ -83,6 +92,7 @@ Content.create(title: 'Parasite',
                 year: 2019, 
                 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9D4jRYPupUwn8Ntix24nbPTzBd9lyUGGpKuim_MzWzmlHWmV', 
                 platform:'Hulu', 
+                rating: 98,
                 queue_list_id: 3)
                 
 Content.create(title: 'Home Alone', 
@@ -91,6 +101,7 @@ Content.create(title: 'Home Alone',
                 year: 1990, 
                 image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9fCU-69w15NO9vLHdm274wMt30_SqiFVd5-jjDhbet5GUI4Xu', 
                 platform:'Disney+', 
+                rating: 69,
                 queue_list_id: 3)
 
 Content.create(title: 'Coco', 
@@ -99,6 +110,7 @@ Content.create(title: 'Coco',
                 year: 2017, 
                 image: 'https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg', 
                 platform:'Disney+', 
+                rating: 96,
                 queue_list_id: 3)
 
 Content.create(title: 'Love Actually', 
@@ -107,6 +119,7 @@ Content.create(title: 'Love Actually',
                 year: 2003, 
                 image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkb9A7NtzXxuQaaIGlJNCG3mhnW3aTkjp486yDPwqqrirOvjNt', 
                 platform:'Prime Video', 
+                rating: 64,
                 queue_list_id: 4)
 
 Content.create(title: 'The Princess Bride', 
@@ -115,6 +128,7 @@ Content.create(title: 'The Princess Bride',
                 year: 1987, 
                 image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWcSl0pgMNJmy5MIP1jOrhVarb7GyOeJ8lx_mPMJuXCXuWqrqA', 
                 platform:'Disney+', 
+                rating: 87,
                 queue_list_id: 3)
 
 Content.create(title: 'The Hangover', 
@@ -123,6 +137,7 @@ Content.create(title: 'The Hangover',
                 year: 2009, 
                 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7mNKrZTKJ-3jMDgEOA_XNR4rA7QIMeIe1tCk0CHiMAD2wqVqR', 
                 platform:'Prime Video', 
+                rating: 78,
                 queue_list_id: 5)
                 
 Content.create(title: 'Deadpool', 
@@ -131,6 +146,7 @@ Content.create(title: 'Deadpool',
                 year: 2016, 
                 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH34MiWpx1RZ10BmJ_3cyK1onnIkNcQYkM2HhRFSjungz7doHR', 
                 platform:'Hulu', 
+                rating: 85,
                 queue_list_id: 5)
                 
 Content.create(title: 'Breaking Bad', 
@@ -139,6 +155,7 @@ Content.create(title: 'Breaking Bad',
                 year: 2008,
                 image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSK9eqijqRLTwXWp8mGWvE5ti1l3FCZ2qVkx83TJNW2SRT4vkHC', 
                 platform:'Netflix', 
+                rating: 96,
                 queue_list_id: 1)
 
 Content.create(title: 'Brooklyn Nine-Nine', 
@@ -147,6 +164,7 @@ Content.create(title: 'Brooklyn Nine-Nine',
                year: 2013, 
                image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmCg8Pi95oFkB1axpC1xpAFxsZaRCrwMGCSbZW4ZDfJLQu5U3u', 
                platform: 'Hulu', 
+               rating: 90,
                queue_list_id: 5)
 
 Content.create(title: 'Halt and Catch Fire', 
@@ -155,6 +173,7 @@ Content.create(title: 'Halt and Catch Fire',
                year: 2014, 
                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCwLza-m0VQxhnPUgnBYSlaZ3TjYLhRS0l3PehfI87nfkjVnW', 
                platform: 'Netflix',
+               rating: 95,
                queue_list_id: 1)
 
 Content.create(title: 'Cowboy Bebop', 
@@ -163,6 +182,7 @@ Content.create(title: 'Cowboy Bebop',
                year: 1998, 
                image: 'https://i.etsystatic.com/6285100/r/il/ed1833/1617717980/il_570xN.1617717980_7jaj.jpg',
                platform:'Crunchyroll', 
+               rating: 100,
                queue_list_id: 2)
 
 Content.create(title: 'Avatar: The Last Airbender', 
@@ -171,6 +191,7 @@ Content.create(title: 'Avatar: The Last Airbender',
                year: 2005, 
                image: 'https://static.tvtropes.org/pmwiki/pub/images/avatar_poster_4.png',
                platform: 'Netflix',
+               rating: 100,
                queue_list_id: 2)
 
 Content.create(title: 'The Godfather', 
@@ -179,6 +200,7 @@ Content.create(title: 'The Godfather',
                year: 1972, 
                image: 'https://images-na.ssl-images-amazon.com/images/I/611P0w5VDpL._AC_SY741_.jpg',
                platform: 'Prime Video',
+               rating: 98,
                queue_list_id: 1)
 
 Content.create(title: "Schitt's Creek", 
@@ -187,6 +209,7 @@ Content.create(title: "Schitt's Creek",
                year: 2015, 
                image: 'https://m.media-amazon.com/images/M/MV5BNWQ1ZmM3MTQtNTVhZC00MWVlLWI5ZjgtYmZiYWQxZjUzZWM0XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg',
                platform: 'Neflix',
+               rating: 93,
                queue_list_id: 5)
 
 Content.create(title: 'Crazy Rich Asians', 
@@ -195,6 +218,7 @@ Content.create(title: 'Crazy Rich Asians',
                year: 2018, 
                image: 'https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_.jpg',
                platform: 'HBO Max',
+               rating: 91, 
                queue_list_id: 4)
 
 Content.create(title: 'The Royal Tenenbaums', 
@@ -202,7 +226,8 @@ Content.create(title: 'The Royal Tenenbaums',
                category: 'movie', 
                year: 2001, 
                image: 'https://images-na.ssl-images-amazon.com/images/I/51P1-GD5rxL.jpg', 
-               platform: 'Prime Video', 
+               platform: 'Prime Video',
+               rating: 80, 
                queue_list_id: 1)
 
 Content.create(title: 'Handmaids Tale', 
@@ -211,6 +236,7 @@ Content.create(title: 'Handmaids Tale',
                year: 2017, 
                image: 'https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1556560871/content-items/002/955/727/thmt_fanart_poster-original.jpg?1556560871',
                platform: 'Hulu',
+               rating: 88,
                queue_list_id: 1)
 
 Content.create(title: 'Demon Slayer: Kimetsu no Yaiba', 
@@ -219,6 +245,7 @@ Content.create(title: 'Demon Slayer: Kimetsu no Yaiba',
                year: 2019, 
                image: 'https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg', 
                platform: 'Hulu',
+               rating: 100, 
                queue_list_id: 2)
 
 Content.create(title: 'Rick and Morty',
@@ -227,6 +254,7 @@ Content.create(title: 'Rick and Morty',
                year: 2013, 
                image: 'https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg',
                platform: 'Hulu',
+               rating: 94, 
                queue_list_id: 2)
 
 Content.create(title: 'Casablanca', 
@@ -234,7 +262,8 @@ Content.create(title: 'Casablanca',
                category:'', 
                year: 1942, 
                image: 'https://m.media-amazon.com/images/I/51cNCX-dOkL._AC_.jpg', 
-               platform: 'HBO Max', 
+               platform: 'HBO Max',
+               rating: 99,
                queue_list_id: 1)
 
 Content.create(title: 'Titanic', 
@@ -242,7 +271,8 @@ Content.create(title: 'Titanic',
                category: 'show', 
                year: 1997, 
                image: 'https://kids.kiddle.co/images/2/22/Titanic_poster.jpg',
-               platform: 'Hulu', 
+               platform: 'Hulu',
+               rating: 89,
                queue_list_id: 4)
 
 Content.create(title: 'Silicon Valley', 
@@ -250,7 +280,8 @@ Content.create(title: 'Silicon Valley',
                category: 'show', 
                year: 2014, 
                image: 'https://cdn.shopify.com/s/files/1/0747/3829/products/mL0942_1024x1024.jpg?v=1571445244',
-               platform: 'HBO Max', 
+               platform: 'HBO Max',
+               rating: 94,
                queue_list_id: 5)
 
 Content.create(title: 'Adventure Time', 
@@ -259,6 +290,7 @@ Content.create(title: 'Adventure Time',
                year: 2010, 
                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDh1BrFLCYBpDe622TlZ2qzP4KCJmquflMec2AOfh_ke9kxPpB',
                platform:'HBO Max', 
+               rating: 100,  
                queue_list_id: 2)
 
 Content.create(title: 'Blue Planet II', 
@@ -266,7 +298,8 @@ Content.create(title: 'Blue Planet II',
                category:'show', 
                year: 2017, 
                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0EQVTpNqEobmKS-Qz6Zb6yFjnkB-Z0_f2lqrePST5qOzJZFv', 
-               platform:'Netflix', 
+               platform:'Netflix',
+               rating: 97, 
                queue_list_id: 3)
 
 Content.create(title: 'Atlanta', 
@@ -274,7 +307,8 @@ Content.create(title: 'Atlanta',
                category: 'show', 
                year: 2016, 
                image: 'https://i.redd.it/subu003zp9e11.jpg', 
-               platform:'Hulu', 
+               platform:'Hulu',
+               rating: 97,  
                queue_list_id: 1)
 
 Content.create(title: "Chef's Table", 
@@ -283,6 +317,7 @@ Content.create(title: "Chef's Table",
                year: 2015, 
                image: 'https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-tv/chefs-table-poster.jpg?itok=WfH-LkHP', 
                platform: 'Netflix',
+               rating: 96, 
                queue_list_id: 1)
 
 Content.create(title: 'Westworld', 
@@ -290,178 +325,146 @@ Content.create(title: 'Westworld',
                category: 'show', 
                year: 2016, 
                image: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2dcee045856551.583f3e8e9b572.png',
-               platform:'HBO Max',
+               platform:'HBO Max', 
+               rating: 82, 
                queue_list_id: 1)
 
-               Ownership.create(review:"If you watched this without subtitles, you'd still be crying by the end. This overtook Spirited Away in sales, GOAT.", 
-               rating: 98, 
-               user_id: 1, 
-               content_id: 1)
 
 # OWNERSHIP ---------------------------------------------------------------------------------------
 
+Ownership.create(review:"If you watched this without subtitles, you'd still be crying by the end. This overtook Spirited Away in sales, GOAT.", 
+               user_id: 1, 
+               content_id: 1)
+
 Ownership.create(review:"The animation and character development is mind-blowing, I never wanted the series to end!", 
-              rating: 79, 
               user_id: 2, 
               content_id: 2)
 
 Ownership.create(review:"Baby Yoda single-handedly saved the entire Star Wars franchise and Disney from losing money during COVID-19. Let's be real, he's the only reason why I even have a subscription.", 
-              rating: 93, 
               user_id: 1 , 
               content_id: 3)
 
 Ownership.create(review:"One of the most iconic TV shows of all time. If you love TV you will love The Sopranos. Getting into the mind of the most feared mob bosses on televison will have you bingeing the whole thing before you know it.", 
-              rating: 92, 
               user_id: 2, 
               content_id: 4)
 
 Ownership.create(review:"Imagine if the Avengers were messed up by the darkest parts of coroporate America, and there's so much gore that Game of Thrones feels rated G in comparison. You can't help but root for the boys as they take on the herculean task of taking down these asshole Supes.", 
-              rating: 90, 
               user_id: 1, 
               content_id: 5)
 
 Ownership.create(review:"It was dropped from Sci-fi after season 3, but this show is so good that Daddy Bezos picked it up himself to satisfy his needs.", 
-              rating: 89, 
               user_id: 2, 
               content_id: 6)
 
 Ownership.create(review:"Great multi-verse movie with insane, vibrant, trippy visuals. The art team is on some next level stuff, Michelangelo could never!", 
-              rating: 97, 
               user_id: 1, 
               content_id: 7)
 
 Ownership.create(review:"Honestly it was pretty funny until a certain point. Then my mind was blown until the end and I can't even describe what I witnessed. You have to watch it to know what I'm talking about. There's a reason why Bong Joon-ho won best foreign and best film that year.", 
-              rating: 98, 
               user_id: 2, 
               content_id: 8)
 
 Ownership.create(review:"What I leanred from this movie is that we need more people like Kevin in the world. Now, everyday when I wake up I tell myself be a Kevin.", 
-              rating: 69, 
               user_id: 2, 
               content_id: 9)
 
 Ownership.create(review:"I got escorted out of theatre for crying too much and using the usher's jacket as tissues. I still begin crying uncontrollably to this day when I see commercials for that chocolate puff cereal.", 
-              rating: 96, 
               user_id: 1, 
               content_id: 10)
 
 Ownership.create(review:"Grab a tissue becasue you're about to bawl your eyes out. This movie not only warms your heart, but will make you fall in love with each and every character. This eclectic cast with multiple entertwining story lines is one of the best RomComs out there.", 
-              rating: 64, 
               user_id: 2, 
               content_id: 11)
 
 Ownership.create(review:"It's inconceivable how they made such a good movie for all age groups. My 4th son from my 7th failed marriage always bugs me to watch it with him and how else can I repsond but with 'As you wish?'", 
-              rating: 87, 
               user_id: 1, 
               content_id: 12)
 
 Ownership.create(review:"This movie embodies all the dumb shit I did back in the day. I'm amazed I'm still alive after thinking about it. Lmaooo", 
-              rating: 78, 
               user_id: 2, 
               content_id: 13)
 
 Ownership.create(review:"Stupid sexy Ryan Reynolds, that's all I gotta say. I'm a faithful guy, but he really be pushing me to my limits. Lowkey I also learned that if I develop cancer in life, keep up the good fight and you might have a chance after going to hell and back. Noice", 
-              rating: 85, 
               user_id: 1, 
               content_id: 14)
 
 Ownership.create(review:"Meth truly changes lives. Teachers are underpaid. These are the two absolutes in life, and if I want to add a third, it would be that Breaking Bad's lowest rating for an episode ever was a 7.8. This show is the reason why I'm in rehab now.", 
-              rating: 96, 
               user_id: 2, 
               content_id: 15)
 
 Ownership.create(review:"Wildly kooky and straight-up hilarious. This shows keeps you laughing while also tackling some real life situations. This show never gets old and is one of the best comedies out there.", 
-              rating: 95, 
               user_id: 1, 
               content_id: 16)
 
 Ownership.create(review: "This is a great glimpse into the  dawn of the age of the computer. The characters are great and show evolves well. Get ready for some 80's nostalgia, a little bit of computer history and a lot of fun scenes.", 
-              rating: 90, 
               user_id: 1, 
               content_id: 17)
 
 Ownership.create(review: "One ofthe most iconic anime's of all time! If you like bounty hunters, wild adventures, jazz music and space... this is the right show for you. Even if you don't like any of those things... still watch this show. You won't regret it.", 
-              rating: 100, 
               user_id: 2, 
               content_id: 18)
 
 Ownership.create(review: "I could never get into American animated media as a child, but then I watched this GOAT show. Every single character from supporting to main is so well thought out and developed. The plot never dips for a second and you feel like part of team avatar, undergoing an epic journey. Zuko's character arc alone makes Jaime's from GOT look like a deformed circle. Uncle Iroh made me question my own sexuality, because smart is soooo sexy. I could go on, but I'll let the show do the talking.",
-               rating: 100,
                user_id: 1, 
                content_id: 19)
 
 Ownership.create(review: 'One of the best movies of all time. The character arcs are amazing and the scenes are iconic. Direction and acting are superb.',
-               rating: 98, 
                user_id: 2, 
                content_id: 20)
 
 Ownership.create(review: 'One of the funniest comedy sitcoms to ever exist! Once the humor sets in you will be binging and laughing for days to come. It has a bunch of Emmys for a reason.',
-               rating: 93, 
                user_id: 2, 
                content_id: 21)
 
 Ownership.create(review:"Even though this is in my date night queue, would not recommend watching with SO. After we did, she developed unrealistic expectations of my wealth and ultimately left me for some rich asian guy. GG",
-               rating: 91, 
                user_id: 1, 
                content_id: 22)
 
-Ownership.create(review: 'Quirky and fun. Get ready to  immerse yourself in the world of this disfunctional family with unique characters. Wes Anderson has an impecable music selection and masterfully crafts his shots.',
-               rating: 80, 
+Ownership.create(review: 'Quirky and fun. Get ready to  immerse yourself in the world of this disfunctional family with unique characters. Wes Anderson has an impecable music selection and masterfully crafts his shots.', 
                user_id: 2, 
                content_id: 23)
 
 Ownership.create(review: "A dark reminder ogf waht America would be like if we don't take care of environemnt and keep our governemnt together. This show is scarily on-point and a beautifully shot.", 
-               rating: 88, 
                user_id: 2, 
                content_id: 24)
 
 Ownership.create(review:"I'm a big fan of the show. Nezuko is just so fun and her voice lines so cute LOL! She's super random but also smarter than she looks, just like me xD. The animation quality is also top notch, but I am scared of the fight scenes so I can only watch with my mom hehe",
-               rating: 100, 
                user_id: 1, 
                content_id: 25)
 
-Ownership.create(review: "I started watching this show sober, but the stuff that happens is so wild that I questioned my own existence, sobriety, and reality itself just 22 short minutes later. How Can Mirrors Be Real If Our Eyes Aren't Real - Jaden Smith.", 
-               rating: 94, 
+Ownership.create(review: "I started watching this show sober, but the stuff that happens is so wild that I questioned my own existence, sobriety, and reality itself just 22 short minutes later. How Can Mirrors Be Real If Our Eyes Aren't Real - Jaden Smith.",
                user_id: 1, 
                content_id: 26)
 
-Ownership.create(review: "One of the greatest films of all time. The classic of all classics, anyone who loves films must give this a watch and then immediately start quoting the last scene to other film buffs",
-               rating: 99, 
+Ownership.create(review: "One of the greatest films of all time. The classic of all classics, anyone who loves films must give this a watch and then immediately start quoting the last scene to other film buffs", 
                user_id: 2, 
                content_id: 27)
 
 Ownership.create(review: "A perfect film to watch on movie night. Be sure to get your tissue box ready and to fall in love with Leo all over again. Also, Rose totally had enough room for him on the wooden plank smh. I'm the king of the world!!!!", 
-               rating: 89, 
                user_id: 1, 
                content_id: 28)
 
-Ownership.create(review:'Wildly hilarious and great portrayal of what Silicon Valley is like for those trying to make. Release your inner nerd and do not miss this amazing show',  
-               rating: 94, 
+Ownership.create(review:'Wildly hilarious and great portrayal of what Silicon Valley is like for those trying to make. Release your inner nerd and do not miss this amazing show', 
                user_id: 2, 
                content_id: 29)
 
-Ownership.create(review:'The animation is beautiful and the world is incredibly unique. Your imagination will run wild with every epsiode.', 
-               rating: 100, 
+Ownership.create(review:'The animation is beautiful and the world is incredibly unique. Your imagination will run wild with every epsiode.',
                user_id: 2, 
                content_id: 30)
 
-Ownership.create(review:"This really makes you appreciate how beautiful mother earth's gifts are. I can't believe how we're polluting our planet in this way. I'm hopping on the first ship to Mars, can't take it anymore knowing these places may not be around much longer.",  
-               rating: 97, 
+Ownership.create(review:"This really makes you appreciate how beautiful mother earth's gifts are. I can't believe how we're polluting our planet in this way. I'm hopping on the first ship to Mars, can't take it anymore knowing these places may not be around much longer.",
                user_id: 1, 
                content_id: 31)
 
 Ownership.create(review:"One of the best new TV shows out there. I was so impressed with the detail in every shot and the writing. This is a must watch!",
-               rating: 97, 
                user_id: 2, 
                content_id: 32)
 
 Ownership.create(review: 'Watching this show made me go bankrupt. I used all of my money on these featured restaurants and I regret nothing as I category this review from the public library computers.',
-               rating: 96, 
                user_id: 1, 
                content_id: 33)
 
-Ownership.create(review:"'Love this show, had me on the edge of my seat!'", 
-               rating: 82, 
+Ownership.create(review:"'Love this show, had me on the edge of my seat!'",
                user_id: 2, 
                content_id: 34)
 
