@@ -3,3 +3,6 @@ class ContentSerializer < ActiveModel::Serializer
 
 
 end
+
+
+

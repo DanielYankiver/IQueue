@@ -27,7 +27,7 @@ Content.create(title: 'Your Name',
                description: 'Two teenagers share a profound, magical connection upon discovering they are swapping bodies. But things become even more complicated when the boy and girl decide to meet in person.', 
                category:'movie', 
                 year: 2017 , 
-                image: 'https://img.moviepostershop.com/your-name-movie-poster-2016-1020777403.jpg', 
+                image: 'https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UY1200_CR90,0,630,1200_AL_.jpg', 
                 platform:'Crunchyroll', 
                 rating: 98,
                 queue_list_id: 2)
@@ -332,139 +332,139 @@ Content.create(title: 'Westworld',
 
 # OWNERSHIP ---------------------------------------------------------------------------------------
 
-Ownership.create(review:"If you watched this without subtitles, you'd still be crying by the end. This overtook Spirited Away in sales, GOAT.", 
+Ownership.create(review:"If you watched this without subtitles, you'd still be crying by the end. This overtook Spirited Away in sales, GOAT.  - Erwin", 
                user_id: 1, 
                content_id: 1)
 
-Ownership.create(review:"The animation and character development is mind-blowing, I never wanted the series to end!", 
+Ownership.create(review:"The animation and character development is mind-blowing, I never wanted the series to end!  - Daniel", 
               user_id: 2, 
               content_id: 2)
 
-Ownership.create(review:"Baby Yoda single-handedly saved the entire Star Wars franchise and Disney from losing money during COVID-19. Let's be real, he's the only reason why I even have a subscription.", 
+Ownership.create(review:"Baby Yoda single-handedly saved the entire Star Wars franchise and Disney from losing money during COVID-19. Let's be real, he's the only reason why I even have a subscription.  - Erwin", 
               user_id: 1 , 
               content_id: 3)
 
-Ownership.create(review:"One of the most iconic TV shows of all time. If you love TV you will love The Sopranos. Getting into the mind of the most feared mob bosses on televison will have you bingeing the whole thing before you know it.", 
+Ownership.create(review:"One of the most iconic TV shows of all time. If you love TV you will love The Sopranos. Getting into the mind of the most feared mob bosses on televison will have you bingeing the whole thing before you know it.  - Daniel", 
               user_id: 2, 
               content_id: 4)
 
-Ownership.create(review:"Imagine if the Avengers were messed up by the darkest parts of coroporate America, and there's so much gore that Game of Thrones feels rated G in comparison. You can't help but root for the boys as they take on the herculean task of taking down these asshole Supes.", 
+Ownership.create(review:"Imagine if the Avengers were messed up by the darkest parts of coroporate America, and there's so much gore that Game of Thrones feels rated G in comparison. You can't help but root for the boys as they take on the herculean task of taking down these asshole Supes.  - Erwin", 
               user_id: 1, 
               content_id: 5)
 
-Ownership.create(review:"It was dropped from Sci-fi after season 3, but this show is so good that Daddy Bezos picked it up himself to satisfy his needs.", 
+Ownership.create(review:"It was dropped from Sci-fi after season 3, but this show is so good that Daddy Bezos picked it up himself to satisfy his needs.  - Daniel", 
               user_id: 2, 
               content_id: 6)
 
-Ownership.create(review:"Great multi-verse movie with insane, vibrant, trippy visuals. The art team is on some next level stuff, Michelangelo could never!", 
+Ownership.create(review:"Great multi-verse movie with insane, vibrant, trippy visuals. The art team is on some next level stuff, Michelangelo could never!  - Erwin", 
               user_id: 1, 
               content_id: 7)
 
-Ownership.create(review:"Honestly it was pretty funny until a certain point. Then my mind was blown until the end and I can't even describe what I witnessed. You have to watch it to know what I'm talking about. There's a reason why Bong Joon-ho won best foreign and best film that year.", 
+Ownership.create(review:"Honestly it was pretty funny until a certain point. Then my mind was blown until the end and I can't even describe what I witnessed. You have to watch it to know what I'm talking about. There's a reason why Bong Joon-ho won best foreign and best film that year.  - Daniel", 
               user_id: 2, 
               content_id: 8)
 
-Ownership.create(review:"What I leanred from this movie is that we need more people like Kevin in the world. Now, everyday when I wake up I tell myself be a Kevin.", 
+Ownership.create(review:"What I leanred from this movie is that we need more people like Kevin in the world. Now, everyday when I wake up I tell myself be a Kevin.  - Daniel", 
               user_id: 2, 
               content_id: 9)
 
-Ownership.create(review:"I got escorted out of theatre for crying too much and using the usher's jacket as tissues. I still begin crying uncontrollably to this day when I see commercials for that chocolate puff cereal.", 
+Ownership.create(review:"I got escorted out of theatre for crying too much and using the usher's jacket as tissues. I still begin crying uncontrollably to this day when I see commercials for that chocolate puff cereal.  - Erwin", 
               user_id: 1, 
               content_id: 10)
 
-Ownership.create(review:"Grab a tissue becasue you're about to bawl your eyes out. This movie not only warms your heart, but will make you fall in love with each and every character. This eclectic cast with multiple entertwining story lines is one of the best RomComs out there.", 
+Ownership.create(review:"Grab a tissue becasue you're about to bawl your eyes out. This movie not only warms your heart, but will make you fall in love with each and every character. This eclectic cast with multiple entertwining story lines is one of the best RomComs out there.  - Daniel", 
               user_id: 2, 
               content_id: 11)
 
-Ownership.create(review:"It's inconceivable how they made such a good movie for all age groups. My 4th son from my 7th failed marriage always bugs me to watch it with him and how else can I repsond but with 'As you wish?'", 
+Ownership.create(review:"It's inconceivable how they made such a good movie for all age groups. My 4th son from my 7th failed marriage always bugs me to watch it with him and how else can I repsond but with 'As you wish?'  - Erwin", 
               user_id: 1, 
               content_id: 12)
 
-Ownership.create(review:"This movie embodies all the dumb shit I did back in the day. I'm amazed I'm still alive after thinking about it. Lmaooo", 
+Ownership.create(review:"This movie embodies all the dumb shit I did back in the day. I'm amazed I'm still alive after thinking about it. Lmaooo.   - Daniel", 
               user_id: 2, 
               content_id: 13)
 
-Ownership.create(review:"Stupid sexy Ryan Reynolds, that's all I gotta say. I'm a faithful guy, but he really be pushing me to my limits. Lowkey I also learned that if I develop cancer in life, keep up the good fight and you might have a chance after going to hell and back. Noice", 
+Ownership.create(review:"Stupid sexy Ryan Reynolds, that's all I gotta say. I'm a faithful guy, but he really be pushing me to my limits. Lowkey I also learned that if I develop cancer in life, keep up the good fight and you might have a chance after going to hell and back. Noice.   - Erwin", 
               user_id: 1, 
               content_id: 14)
 
-Ownership.create(review:"Meth truly changes lives. Teachers are underpaid. These are the two absolutes in life, and if I want to add a third, it would be that Breaking Bad's lowest rating for an episode ever was a 7.8. This show is the reason why I'm in rehab now.", 
+Ownership.create(review:"Meth truly changes lives. Teachers are underpaid. These are the two absolutes in life, and if I want to add a third, it would be that Breaking Bad's lowest rating for an episode ever was a 7.8. This show is the reason why I'm in rehab now.  - Daniel", 
               user_id: 2, 
               content_id: 15)
 
-Ownership.create(review:"Wildly kooky and straight-up hilarious. This shows keeps you laughing while also tackling some real life situations. This show never gets old and is one of the best comedies out there.", 
+Ownership.create(review:"Wildly kooky and straight-up hilarious. This shows keeps you laughing while also tackling some real life situations. This show never gets old and is one of the best comedies out there.  - Erwin", 
               user_id: 1, 
               content_id: 16)
 
-Ownership.create(review: "This is a great glimpse into the  dawn of the age of the computer. The characters are great and show evolves well. Get ready for some 80's nostalgia, a little bit of computer history and a lot of fun scenes.", 
+Ownership.create(review: "This is a great glimpse into the  dawn of the age of the computer. The characters are great and show evolves well. Get ready for some 80's nostalgia, a little bit of computer history and a lot of fun scenes.  - Erwin", 
               user_id: 1, 
               content_id: 17)
 
-Ownership.create(review: "One ofthe most iconic anime's of all time! If you like bounty hunters, wild adventures, jazz music and space... this is the right show for you. Even if you don't like any of those things... still watch this show. You won't regret it.", 
+Ownership.create(review: "One ofthe most iconic anime's of all time! If you like bounty hunters, wild adventures, jazz music and space... this is the right show for you. Even if you don't like any of those things... still watch this show. You won't regret it.  - Daniel", 
               user_id: 2, 
               content_id: 18)
 
-Ownership.create(review: "I could never get into American animated media as a child, but then I watched this GOAT show. Every single character from supporting to main is so well thought out and developed. The plot never dips for a second and you feel like part of team avatar, undergoing an epic journey. Zuko's character arc alone makes Jaime's from GOT look like a deformed circle. Uncle Iroh made me question my own sexuality, because smart is soooo sexy. I could go on, but I'll let the show do the talking.",
+Ownership.create(review: "I could never get into American animated media as a child, but then I watched this GOAT show. Every single character from supporting to main is so well thought out and developed. The plot never dips for a second and you feel like part of team avatar, undergoing an epic journey. Zuko's character arc alone makes Jaime's from GOT look like a deformed circle. Uncle Iroh made me question my own sexuality, because smart is soooo sexy. I could go on, but I'll let the show do the talking.  - Erwin",
                user_id: 1, 
                content_id: 19)
 
-Ownership.create(review: 'One of the best movies of all time. The character arcs are amazing and the scenes are iconic. Direction and acting are superb.',
+Ownership.create(review: 'One of the best movies of all time. The character arcs are amazing and the scenes are iconic. Direction and acting are superb.  - Daniel',
                user_id: 2, 
                content_id: 20)
 
-Ownership.create(review: 'One of the funniest comedy sitcoms to ever exist! Once the humor sets in you will be binging and laughing for days to come. It has a bunch of Emmys for a reason.',
+Ownership.create(review: 'One of the funniest comedy sitcoms to ever exist! Once the humor sets in you will be binging and laughing for days to come. It has a bunch of Emmys for a reason.  - Daniel',
                user_id: 2, 
                content_id: 21)
 
-Ownership.create(review:"Even though this is in my date night queue, would not recommend watching with SO. After we did, she developed unrealistic expectations of my wealth and ultimately left me for some rich asian guy. GG",
+Ownership.create(review:"Even though this is in my date night queue, would not recommend watching with SO. After we did, she developed unrealistic expectations of my wealth and ultimately left me for some rich asian guy. GG  - Erwin",
                user_id: 1, 
                content_id: 22)
 
-Ownership.create(review: 'Quirky and fun. Get ready to  immerse yourself in the world of this disfunctional family with unique characters. Wes Anderson has an impecable music selection and masterfully crafts his shots.', 
+Ownership.create(review: 'Quirky and fun. Get ready to  immerse yourself in the world of this disfunctional family with unique characters. Wes Anderson has an impecable music selection and masterfully crafts his shots.  - Daniel', 
                user_id: 2, 
                content_id: 23)
 
-Ownership.create(review: "A dark reminder ogf waht America would be like if we don't take care of environemnt and keep our governemnt together. This show is scarily on-point and a beautifully shot.", 
+Ownership.create(review: "A dark reminder ogf waht America would be like if we don't take care of environemnt and keep our governemnt together. This show is scarily on-point and a beautifully shot.  - Daniel", 
                user_id: 2, 
                content_id: 24)
 
-Ownership.create(review:"I'm a big fan of the show. Nezuko is just so fun and her voice lines so cute LOL! She's super random but also smarter than she looks, just like me xD. The animation quality is also top notch, but I am scared of the fight scenes so I can only watch with my mom hehe",
+Ownership.create(review:"I'm a big fan of the show. Nezuko is just so fun and her voice lines so cute LOL! She's super random but also smarter than she looks, just like me xD. The animation quality is also top notch, but I am scared of the fight scenes so I can only watch with my mom hehe.  - Erwin",
                user_id: 1, 
                content_id: 25)
 
-Ownership.create(review: "I started watching this show sober, but the stuff that happens is so wild that I questioned my own existence, sobriety, and reality itself just 22 short minutes later. How Can Mirrors Be Real If Our Eyes Aren't Real - Jaden Smith.",
+Ownership.create(review: "I started watching this show sober, but the stuff that happens is so wild that I questioned my own existence, sobriety, and reality itself just 22 short minutes later. How Can Mirrors Be Real If Our Eyes Aren't Real.  - Erwin",
                user_id: 1, 
                content_id: 26)
 
-Ownership.create(review: "One of the greatest films of all time. The classic of all classics, anyone who loves films must give this a watch and then immediately start quoting the last scene to other film buffs", 
+Ownership.create(review: "One of the greatest films of all time. The classic of all classics, anyone who loves films must give this a watch and then immediately start quoting the last scene to other film buffs   - Daniel", 
                user_id: 2, 
                content_id: 27)
 
-Ownership.create(review: "A perfect film to watch on movie night. Be sure to get your tissue box ready and to fall in love with Leo all over again. Also, Rose totally had enough room for him on the wooden plank smh. I'm the king of the world!!!!", 
+Ownership.create(review: "A perfect film to watch on movie night. Be sure to get your tissue box ready and to fall in love with Leo all over again. Also, Rose totally had enough room for him on the wooden plank smh. I'm the king of the world!!!!  - Erwin", 
                user_id: 1, 
                content_id: 28)
 
-Ownership.create(review:'Wildly hilarious and great portrayal of what Silicon Valley is like for those trying to make. Release your inner nerd and do not miss this amazing show', 
+Ownership.create(review:'Wildly hilarious and great portrayal of what Silicon Valley is like for those trying to make. Release your inner nerd and do not miss this amazing show  - Daniel', 
                user_id: 2, 
                content_id: 29)
 
-Ownership.create(review:'The animation is beautiful and the world is incredibly unique. Your imagination will run wild with every epsiode.',
+Ownership.create(review:'The animation is beautiful and the world is incredibly unique. Your imagination will run wild with every epsiode.   - Daniel',
                user_id: 2, 
                content_id: 30)
 
-Ownership.create(review:"This really makes you appreciate how beautiful mother earth's gifts are. I can't believe how we're polluting our planet in this way. I'm hopping on the first ship to Mars, can't take it anymore knowing these places may not be around much longer.",
+Ownership.create(review:"This really makes you appreciate how beautiful mother earth's gifts are. I can't believe how we're polluting our planet in this way. I'm hopping on the first ship to Mars, can't take it anymore knowing these places may not be around much longer.  - Erwin",
                user_id: 1, 
                content_id: 31)
 
-Ownership.create(review:"One of the best new TV shows out there. I was so impressed with the detail in every shot and the writing. This is a must watch!",
+Ownership.create(review:"One of the best new TV shows out there. I was so impressed with the detail in every shot and the writing. This is a must watch!  - Daniel",
                user_id: 2, 
                content_id: 32)
 
-Ownership.create(review: 'Watching this show made me go bankrupt. I used all of my money on these featured restaurants and I regret nothing as I category this review from the public library computers.',
+Ownership.create(review: 'Watching this show made me go bankrupt. I used all of my money on these featured restaurants and I regret nothing as I category this review from the public library computers.  - Erwin',
                user_id: 1, 
                content_id: 33)
 
-Ownership.create(review:"'Love this show, had me on the edge of my seat!'",
+Ownership.create(review:"Love this show, had me on the edge of my seat!  - Daniel",
                user_id: 2, 
                content_id: 34)
 
