@@ -16,7 +16,7 @@ class OwnershipsController < ApplicationController
 
     def update
         ownership = Ownership.find(params[:id])
-        Ownership.update(ownership_params)
+        ownership.update(ownership_params)
         render json: ownership
     end 
     
