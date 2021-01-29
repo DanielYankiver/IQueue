@@ -54,7 +54,7 @@ Content.create(title: 'The Sopranos',
                 description: 'Tony Soprano juggles the problems of his fractious family with those of a "Family" of a different sort - the mob. He sees a therapist to deal with his professional and personal problems, which bring on panic attacks. He deals with personal and professional power struggles, affairs, violence, the threat of exposure and betrayal, and a whole bunch of people being whacked.', 
                 category:'Show', 
                 year: 1999, 
-                image: 'https://ih1.redbubble.net/image.402964186.1875/flat,750x,075,f-pad,750x1000,f8f8f8.jpg', 
+                image: 'https://m.media-amazon.com/images/M/MV5BZGJjYzhjYTYtMDBjYy00OWU1LTg5OTYtNmYwOTZmZjE3ZDdhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg', 
                 platform:'HBO Max', 
                 rating: 92,
                 queue_list_id: 1)
